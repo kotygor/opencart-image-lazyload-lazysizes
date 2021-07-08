@@ -1,0 +1,22 @@
+{
+	"name": "kotygor/opencart-image-lazyload-lazysizes",
+	"description": "Opencart implements of aFarkas/lazysizes",
+	"homepage": "//afarkas.github.io/lazysizes/",
+	"version": "5.3.2",
+	"type": "opencart-extension",
+	"extra": {
+		"src-dir" : "upload",
+		"mappings" : [
+			"catalog/view/javascript/lazysizes.min.js"
+		],
+		"installers"	: {
+			"xml": "install.xml"
+		}
+	},
+	"repositories": [
+		{
+			"type": "git",
+			"url": "https://github.com/kotygor/opencart-image-lazyload-lazysizes"
+		}
+	]
+}
